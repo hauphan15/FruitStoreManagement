@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ComponentHeader from "./components/component_header";
+import ComponentBody from "./components/component_body";
+import ComponentFooter from "./components/component_footer";
+import ComponentLeftBar from "./components/component_leftBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex container mx-auto bg-gray-100 rounded-t-lg p-5">
+      <div className="w-32 ml-5">
+        <ComponentLeftBar />
+      </div>
+      <div className="w-full">
+        <ComponentHeader />
+        <ComponentBody />
+        <ComponentFooter />
+      </div>
     </div>
   );
 }

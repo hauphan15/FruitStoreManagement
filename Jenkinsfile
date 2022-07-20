@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stages('Run app') {
+        stage('Run app') {
             steps {
                 bat 'npm install'
                 bat 'npm start'

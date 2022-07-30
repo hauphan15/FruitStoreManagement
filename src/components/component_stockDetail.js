@@ -50,7 +50,7 @@ function StockDetail(props) {
               <VisibilityIcon/>
             </div>
             <div>
-              View detail
+              View Detail
             </div>
           </div>
         </div>

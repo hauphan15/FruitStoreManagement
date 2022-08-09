@@ -13,9 +13,6 @@ function App() {
         <ComponentHeader />
         <ComponentBody />
         <ComponentFooter />
-        <ComponentHeader />
-        <ComponentBody />
-        <ComponentFooter />
       </div>
     </div>
   );
